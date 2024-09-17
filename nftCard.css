@@ -1,0 +1,91 @@
+* {
+  margin: 0pc;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parentContainer {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: radial-gradient(rgb(63, 63, 59), rgb(230, 159, 159), rgb(160, 160, 93),rgb(206, 134, 134)); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productContainer {
+  width: 800px;
+  height: 500px;
+  background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 20px; */
+}
+.productCard {
+  width: 280px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 10px;
+  border: 4px solid burlywood;
+}
+.productCard:hover{
+  background-image: linear-gradient(135deg, #ffffff18 10%, #9808cc77 100%);
+}
+.productImage{
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+}
+.logo{
+    /* width: 25px;
+    height: 25px; */
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+.logo1{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    border-radius: 10px;
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+}
+.productTitle{
+    color: black;
+    font-family: "Amita", serif;
+  font-weight: bolder;
+  font-style: normal;
+  /* position: absolute; */
+  
+}
+.productDescription{
+    margin-top: 0px;
+}
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    font-family: "Amita", system-ui;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+button:hover{
+  background-image: linear-gradient(135deg, #2c292e46 40%, #43caff36 60%);
+  color: white;
+  font-weight: bolder;
+}
+.productPrice{
+  font-family: "Amita", system-ui;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
